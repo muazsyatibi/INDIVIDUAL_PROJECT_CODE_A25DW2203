@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="tax.css">
+</head>
+
+<body>
+
+    <!-- Name: Muaz Syatibi Bin Mokhzani -->
+    <!-- Matric No: A25DW2203 -->
+
+    <div class="page-container">
+
+        <nav class="top-nav">
+            <a href="main.html">Home</a>
+            <a href="personalInfo.html">Personal Info</a>
+            <a href="curricVitae.html">CV</a>
+            <a href="tools.html">Tools</a>
+        </nav>
+
+        <section class="tax-box">
+
+            <h1>Income Tax Calculator</h1>
+
+            <p>Enter your yearly income to calculate your estimated income tax.</p>
+
+            <label for="income">Yearly Income (RM):</label>
+            <input type="number" id="income" placeholder="Example: 50000">
+
+            <button onclick="calculateTax()">Calculate Tax</button>
+
+            <div class="tax-result-box">
+                <h3>Tax Amount: RM <span id="tax">0.00</span></h3>
+            </div>
+
+            <div class="tax-images">
+                <img src="images/taxrate1.png" alt="Tax Rate Table 1">
+                <img src="images/taxrate2.png" alt="Tax Rate Table 2">
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="tax.js"></script>
+
+</body>
+</html>

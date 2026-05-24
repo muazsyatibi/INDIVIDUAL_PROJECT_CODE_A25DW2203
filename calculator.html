@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+
+    <!-- Name: Muaz Syatibi Bin Mokhzani -->
+    <!-- Matric No: A25DW2203 -->
+
+    <div class="page-container">
+
+        <nav class="top-nav">
+            <a href="main.html">Home</a>
+            <a href="personalInfo.html">Personal Info</a>
+            <a href="curricVitae.html">CV</a>
+            <a href="tools.html">Tools</a>
+        </nav>
+
+        <section class="calculator-box">
+
+            <h1>Simple Calculator</h1>
+
+            <p>Enter two numbers and choose an operation.</p>
+
+            <input type="number" id="num1" placeholder="First Number">
+            <br><br>
+
+            <input type="number" id="num2" placeholder="Second Number">
+            <br><br>
+
+            <button onclick="add()">Add</button>
+            <button onclick="subtract()">Subtract</button>
+            <button onclick="multiply()">Multiply</button>
+            <button onclick="divide()">Divide</button>
+            <button onclick="clearAll()">Clear</button>
+
+            <h3>Result = <span id="result"></span></h3>
+
+        </section>
+
+    </div>
+
+    <script src="calculator.js"></script>
+
+</body>
+</html>

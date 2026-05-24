@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="converter.css">
+</head>
+
+<body>
+
+    <!-- Name: Muaz Syatibi Bin Mokhzani -->
+    <!-- Matric No: A25DW2203 -->
+
+    <div class="page-container">
+
+        <nav class="top-nav">
+            <a href="main.html">Home</a>
+            <a href="personalInfo.html">Personal Info</a>
+            <a href="curricVitae.html">CV</a>
+            <a href="tools.html">Tools</a>
+        </nav>
+
+        <section class="converter-box">
+
+            <h1>Unit Converter</h1>
+
+            <p>
+                Enter a value and choose whichever conversion you want to perform.
+            </p>
+
+            <label for="value">Enter value:</label>
+            <input type="number" id="value" placeholder="Example: 25">
+
+            <div class="button-group">
+                <button onclick="cmToMeter()">cm to meter</button>
+                <button onclick="meterToCm()">meter to cm</button>
+                <button onclick="meterToKm()">meter to km</button>
+                <button onclick="kmToMeter()">km to meter</button>
+                <button onclick="clearConverter()">Clear</button>
+            </div>
+
+            <p id="converterResult">Result will appear here.</p>
+
+        </section>
+
+    </div>
+
+    <script src="converter.js"></script>
+
+</body>
+</html>
