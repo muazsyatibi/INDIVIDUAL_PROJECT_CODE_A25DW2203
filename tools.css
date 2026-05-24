@@ -8,7 +8,7 @@ body {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, sans-serif;
     background:
         linear-gradient(rgba(0, 20, 5, 0.35), rgba(0, 20, 5, 0.35)),
-        url("images/green.jpg");
+        url("images/darkgreen.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
